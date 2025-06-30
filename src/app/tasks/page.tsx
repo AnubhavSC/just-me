@@ -1,9 +1,15 @@
+'use client'
+
 import Navbar from "@/components/NavBar"
-import PomodoroTimer from "@/components/Pomodoro"
-export default function Task(){
-    return(
-        <div>
+export default function Task() {
+    return (
+        <div className="mx-auto text-center">
             <Navbar/>
+            <div>
+                <div>
+                    <h1>Hellow</h1>
+                </div>
+            </div>
         </div>
     )
 }
