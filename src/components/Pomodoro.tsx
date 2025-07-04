@@ -11,7 +11,6 @@ export function Pomodoro() {
     const [sessionCount, setSessionCount] = useState(0);
     const [showSettings, setShowSettings] = useState(false);
     
-    // Settings state
     const [sessionTime, setSessionTime] = useState(40);
     const [breakTime, setBreakTime] = useState(10);
     const [longBreakTime, setLongBreakTime] = useState(20);
@@ -21,7 +20,7 @@ export function Pomodoro() {
     const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
     useEffect(() => {
-        audioRef.current = new Audio('/beep.mp3');
+        audioRef.current = new Audio('sfx/beep.mp3');
         audioRef.current.preload = 'auto';
     }, []);
 
