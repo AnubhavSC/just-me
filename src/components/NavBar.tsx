@@ -84,7 +84,7 @@ export default function Navbar() {
           )}
           <button
             onClick={handleToggle}
-            className="p-2 rounded-lg hover:bg-neutral-800 text-gray-400 hover:text-amber-400 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50"
+            className="p-2 rounded-lg hover:bg-neutral-800 text-gray-400 hover:text-amber-400 transition-colors"
             aria-label={isOpen ? 'Collapse sidebar' : 'Expand sidebar'}
           >
             {isOpen ? <X size={20} /> : <Menu size={20} />}

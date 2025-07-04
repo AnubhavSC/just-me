@@ -1,10 +1,10 @@
 
 import { Flame, Award, Calendar } from 'lucide-react';
 
-
 export default function StreakCard() {
+
     return (
-        <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white w-[35rem] mt-6 h-[15rem] p-6 rounded-xl">
+        <div className="bg-gradient-to-br from-orange-500 to-red-500 text-white w-[35rem]  h-[15rem] p-6 rounded-xl">
             <div className="flex items-center gap-2 mb-6">
                 <Flame className="text-yellow-300" size={24} />
                 <h3 className="text-xl font-semibold">Study Streak</h3>
